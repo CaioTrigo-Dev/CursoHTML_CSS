@@ -83,7 +83,7 @@
     font-size: 1.5rem;
     max-width: 600px;
 }
-div .Foto-de-aline{
+.Foto-de-aline{
     height: 500px;
     width: 500px;
     border-radius: 17px;
@@ -219,4 +219,71 @@ footer p {
         font-family: "Nanum Gothic", sans-serif;
         font-weight: 400;
         font-style: normal;
+}
+@media (max-width: 1122px) {
+    .container-rodape{
+        grid-template-columns: 3fr;
+    }
+    .border-right{
+        border-bottom: 1px solid black;
+        border-right: 0px;
+    }
+    .sobremim{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+    .Foto-de-aline{
+        width: 300px;
+        height: 450px;
+    }
+    .white-bg{
+        background-size: 147%;
+        background-position-x: -100px;
+    }
+}
+@media (max-width: 626px) {
+    .container-rodape{
+        grid-template-columns: 3fr;
+    }
+    .border-right{
+        border-bottom: 1px solid black;
+        border-right: 0px;
+    }
+    .sobremim{
+        font-size: 1rem;
+    }
+    .Foto-de-aline{
+        width: 200px;
+        height: 320px;
+    }
+    .white-bg{
+        background-size: 147%;
+        background-position-x: -100px;
+    }
+}
+@media (min-height: 800px) {
+    .container-rodape{
+        grid-template-columns: 3fr;
+    }
+    .border-right{
+        border-bottom: 1px solid black;
+        border-right: 0px;
+    }
+    .sobremim{
+        font-size: 1rem;
+    }
+    #cabecalho{
+        font-size: 3rem;
+    }
+    .Foto-de-aline{
+        width: 140px;
+        height: 300px;
+    }
+    .cabecalho-two{
+        font-size: 3rem;
+    }
+    .white-bg{
+        background-size: 578%;
+        background-position-x: -1180px;
+    }
 }
