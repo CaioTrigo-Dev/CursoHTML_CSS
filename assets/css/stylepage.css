@@ -222,7 +222,7 @@ footer p {
 }
 @media (max-width: 1122px) {
     .container-rodape{
-        grid-template-columns: 3fr;
+        grid-template-columns: 3fr 3fr 3fr;
     }
     .border-right{
         border-bottom: 1px solid black;
@@ -261,7 +261,7 @@ footer p {
         background-position-x: -100px;
     }
 }
-@media (min-height: 800px) {
+@media (max-width: 500px) {
     .container-rodape{
         grid-template-columns: 3fr;
     }
@@ -285,5 +285,15 @@ footer p {
     .white-bg{
         background-size: 578%;
         background-position-x: -1180px;
+    }
+    .menu-option{
+        font-size: 0.9rem;
+        align-items: center;
+    }
+    .menu-style:hover{
+        color: var(--quinta-color);
+        border-bottom: 0.1rem solid;
+        transition: all 100ms ease-in;
+        font-size: 1.2rem;
     }
 }
